@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="images/x-icon" href="logo.png" />
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container">
+        <button class="add_button">Add User</button>
+        <div class="user_info"></div>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="container modal_container">
+        <div class="info">
+          <h1>Name:</h1>
+          <input type="text" name="name" id="name" class="inp" required />
+        </div>
+        <div class="info">
+          <h1>Email:</h1>
+          <input type="email" id="email" class="inp" required />
+        </div>
+        <div class="buttons">
+          <button class="close">Close</button>
+          <button class="add_user">Add</button>
+          <button class="update_user">Update</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
